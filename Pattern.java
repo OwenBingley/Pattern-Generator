@@ -27,7 +27,37 @@ public class Pattern {
         System.out.println(); 
         i++;
     }
-}  
+}
+     
+    public static void odds(int start) {
+        
+        for (int i = start; i >= 1; i -= 2) {
+            
+            for (int j = 0; j < i; j++) {
+                System.out.print(i);
+            }
+
+            System.out.println();
+        }
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -42,9 +72,10 @@ public class Pattern {
 
 
 public static void main(String[] args) {
-        stars(5);
-         triangle();
-   
+        stars(7);
+         triangle(9);
+         System.out.println();
+         odds(9);
     }
 
 }
