@@ -75,7 +75,7 @@ public class Pattern {
             }
             System.out.println(); 
         }
-    }
+    } // postcondition: starts with o and goes to e after every other until reaches 6 and then decreases.
 
     public static void pyramid(int rows) {
         for (int i = 1; i <= rows; i++) {
